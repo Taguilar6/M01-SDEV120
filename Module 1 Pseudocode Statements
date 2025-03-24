@@ -3,7 +3,9 @@
 
 GET miles_driven
 GET gallons_used
+
 mpg = miles_driven / gallons_used
+
 DISPLAY mpg
 
 
