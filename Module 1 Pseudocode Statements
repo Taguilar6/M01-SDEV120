@@ -1,0 +1,34 @@
+//Exercise 1 
+// This pseudocode is intended to compute the number of miles per gallon you get with your automobile
+
+GET miles_driven
+GET gallons_used
+mpg = miles_driven / gallons_used
+DISPLAY mpg
+
+
+//Exercise 2 
+// This pseudocode is intended to describe computing the daily cost of your rent in a 30-day month
+
+GET monthly_rent
+
+daily_rent - monthly_rent / 30
+
+DISPLAY "Daily rent cost:", daily_rent
+
+//Exercise 3
+// This program accepts a user's monthly pay and rent, utilities, and grocery bills
+// and displays the amount available for discretionary spending (which might be negative)
+// Your program should output the pay and the total bills as well as the remaining discretionary amount
+
+GET monthly_pay
+GET rent_bill
+GET utilities_bill
+GET grocery_bill
+
+total_bills = rent_bill + utilities_bill + grocery_bill
+discretionary_spending = monthly_pay - total_bills
+
+DISPLAY "Monthly Pay:", monthly_pay
+DISPLAY "Total Bills:", total_bills
+DISPLAY "Discretionary Spending:", discretionary_spending
