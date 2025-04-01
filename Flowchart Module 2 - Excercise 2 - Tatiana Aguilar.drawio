@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="Mrfb7tQ3vESpP99IDiUB">
+    <mxGraphModel dx="368" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UzpVF2QsXIlu61NggvrV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UzpVF2QsXIlu61NggvrV-2" target="UzpVF2QsXIlu61NggvrV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-2" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UzpVF2QsXIlu61NggvrV-3" target="UzpVF2QsXIlu61NggvrV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-3" value="INPUT # of hours worked&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UzpVF2QsXIlu61NggvrV-4" target="UzpVF2QsXIlu61NggvrV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-4" value="INPUT cost of materials&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UzpVF2QsXIlu61NggvrV-5" target="UzpVF2QsXIlu61NggvrV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-5" value="PROCESS total cost = (# of hours worked x $30) + (120% x cost of materials)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UzpVF2QsXIlu61NggvrV-6" target="UzpVF2QsXIlu61NggvrV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-6" value="DISPLAY total cost" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UzpVF2QsXIlu61NggvrV-7" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
